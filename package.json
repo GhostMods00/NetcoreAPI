@@ -1,20 +1,26 @@
 {
   "name": "netcoreapi",
   "version": "1.0.0",
-  "description": "Social Network API",
-  "homepage": "https://github.com/GhostMods00/NetcoreAPI#readme",
-  "bugs": {
-    "url": "https://github.com/GhostMods00/NetcoreAPI/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GhostMods00/NetcoreAPI.git"
-  },
-  "license": "ISC",
-  "author": "Waleed Zaryab",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "A social network REST API built with Express and MongoDB",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "social network",
+    "api",
+    "mongodb",
+    "express",
+    "mongoose"
+  ],
+  "author": "Waleed Zaryab",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

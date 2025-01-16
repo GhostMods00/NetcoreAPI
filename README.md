@@ -107,4 +107,4 @@ Let's connect! Reach out to me through:
 
 ---
 
-Made with ❤️ by Waleed Zaryab | © 2024 All Rights Reserved ✨
+Made with ❤️ by Waleed Zaryab | © 2025 All Rights Reserved ✨
